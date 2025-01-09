@@ -1,0 +1,16 @@
+package cc.k3521054.inilengthservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+
+public class IniLengthServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(IniLengthServiceApplication.class, args);
+	}
+
+}
